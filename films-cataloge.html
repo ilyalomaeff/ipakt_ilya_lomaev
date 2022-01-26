@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPakt | Каталог фильмов</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome/cssfa2/all.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/choices/choices.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body style="background-image: url('img/body_background.jpg')">
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-content__company">
+                    <a href="index.html" class="header-content__link">
+                        <img src="img/logo.svg" alt="iPakt" class="header-content__logo">
+                    </a>
+                    <span class="header-content__slogan">
+                        Онлайн-кинотеатр у вас дома.
+                    </span>
+                    <div class="burger">
+                        <span></span>
+                      </div>
+                </div>
+                <div class="header-content__social-links">
+                    <!--noindex-->
+                    <a class="header-facebook-icon header-icon" href="##" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+
+                    <!--noindex-->
+                    <a class="header-instagram-icon header-icon" href="##" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+
+                    <!--noindex-->
+                    <a class="header-vk-icon header-icon"  href="##" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+                </div>
+                <div class="header-content__navigation-links">
+                    <div class="header-content__navigation-item">
+                        <a href="##">
+                            <span>
+                                Личные кабинеты
+                            </span>
+                        </a>
+                    </div>
+                    <div class="header-content__navigation-item">
+                        <a href="##">
+                            <span>
+                                Оплатить услуги
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <button class="ghost-button header-content__button">
+                    стать абонентом
+                </button>
+            </div>
+            <nav class="header-menu">
+                <ul class="header-menu__list">
+                    <li>
+                        <a href="##">
+                            ТВ + Интернет
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            Телевидение
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            Интернет
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            Видеонаблюдение
+                        </a>
+                    </li>
+                    <li>
+                        <a href="subscriptions.html">
+                            Акции
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            Сервисный центр
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            Помощь
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cataloge" id="cataloge">
+        <div class="container">
+            <div class="search">
+                <div class="search__pre-search">
+                    <span>
+                        <a href="index.html" class="search__link_underline">
+                            iPakt
+                        </a>
+                            Каталог фильмов
+                    </span>
+                    <h1 class="search__title">
+                        Каталог фильмов
+                    </h1>
+                </div>
+                <div class="search__form-wrap">
+                    <form action="##" class="search__form">
+                        <input type="text" class="search__input search__input_big" placeholder="Название фильма" name="filmName">
+                        <div class="search__select-wrap">
+                            <select name="genre-list" class="search__input selectToJS">
+                                <option selected>
+                                    Боевики
+                                </option>
+                                <option>
+                                    Комедии
+                                </option>
+                                <option>
+                                    Драмы
+                                </option>
+                                <option>
+                                    Детективы
+                                </option>
+                                <option>
+                                    Документальные
+                                </option>
+                            </select>
+                            <div class="select-arrow-down"></div>
+                        </div>
+
+                        <div class="search__select-wrap">
+                            <select name="countries" class="search__input selectToJS2">
+                                <option selected>
+                                    Все страны
+                                </option>
+                                <option>
+                                    Норвегия
+                                </option>
+                                <option>
+                                    Россия
+                                </option>
+                                <option>
+                                    США
+                                </option>
+                                <option>
+                                    Франция
+                                </option>
+                            </select>
+                            <div class="select-arrow-down"></div>
+                        </div>
+
+                        <div class="search__select-wrap">
+                            <select name="features" class="search__input selectToJS3">
+                                <option selected>
+                                    По умолчанию
+                                </option>
+                                <option>
+                                    До 1 часа
+                                </option>
+                                <option>
+                                    1 - 2 часа
+                                </option>
+                                <option>
+                                    От 2 часов
+                                </option>
+                            </select>
+                            <div class="select-arrow-down"></div>
+                        </div>
+
+                        <button class="search__send-button button" type="button">
+                            найти фильм
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="films">
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film1.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                            Ограбление по-джентльменски
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film2.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Боевой робот номер 4
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film3.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Шан-Чи и легенда десяти колец
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film4.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                               
+                    
+                        
+                            Фантастические твари и где они обитают
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film5.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Фантастические твари: Преступления Грин-де-Вальда
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film6.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и философский камень
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film7.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и Тайная комната
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film8.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и узник Азкабана
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film9.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Клаустрофобы 2: Лига выживших (Предзаказ)
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film10.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Множественные святые Ньюарка (Предзаказ)
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film11.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                Готовы к чуду : Истории астронавтов с международной космической станции
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                Название фильма
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film1.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                            Ограбление по-джентльменски
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film2.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Боевой робот номер 4
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film3.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Шан-Чи и легенда десяти колец
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film4.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                               
+                    
+                        
+                            Фантастические твари и где они обитают
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film5.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Фантастические твари: Преступления Грин-де-Вальда
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film6.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и философский камень
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film7.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и Тайная комната
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film8.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и узник Азкабана
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film9.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Клаустрофобы 2: Лига выживших (Предзаказ)
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film10.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Множественные святые Ньюарка (Предзаказ)
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film11.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                Готовы к чуду : Истории астронавтов с международной космической станции
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                Название фильма
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film1.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                            Ограбление по-джентльменски
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film2.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Боевой робот номер 4
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film3.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Шан-Чи и легенда десяти колец
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film4.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                               
+                    
+                        
+                            Фантастические твари и где они обитают
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film5.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Фантастические твари: Преступления Грин-де-Вальда
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film6.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и философский камень
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film7.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и Тайная комната
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film8.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и узник Азкабана
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film9.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Клаустрофобы 2: Лига выживших (Предзаказ)
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film10.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Множественные святые Ньюарка (Предзаказ)
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film11.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                Готовы к чуду : Истории астронавтов с международной космической станции
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                Название фильма
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film1.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                            Ограбление по-джентльменски
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film2.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Боевой робот номер 4
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film3.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Шан-Чи и легенда десяти колец
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film4.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                               
+                    
+                        
+                            Фантастические твари и где они обитают
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film5.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Фантастические твари: Преступления Грин-де-Вальда
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                <div class="films__item">
+                    <a href="film-page.html" class="films__link">
+                        <img src="img/cataloge/film6.jpg" alt="Постер NO TIME TO DIE" class="films__img">
+                        <div class="films__desc">
+                            <span class="films__name">
+                                
+                    
+                        
+                            Гарри Поттер и философский камень
+                        
+                    
+
+                    
+                            </span>
+                            <span class="films__seo">
+                                2020, 150 мин.
+                            </span>
+                        </div>
+                        <div class="blur-img"></div>
+                    </a>
+                </div>
+                
+                
+            </div>
+            <button class="ghost-button showMore-btn" type="button">
+                показать еще фильмы
+            </button>
+        </div>
+    </section>
+
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content__contacts">
+                    <div class="footer-content__company">
+                        <a href="##" class="footer-content__logo-link">
+                            <img src="img/logo_footer.svg" alt="iPakt" class="footer-content__logo-img">
+                        </a>
+                        <span class="footer-content__slogan">
+                            Онлайн-кинотеатр у вас дома.
+                        </span>
+                    </div>
+                    <p class="footer-contant__text">
+                        Кабельное цифровое телевидение, высокоскоростной доступ 
+                        в интернет, IP-телефония, системы безопасности
+                    </p>
+                    <div class="footer-contant__flex-wrap">
+                        <a href="tel:8125958122" class="footer-contant__phone">
+                            <span class="redtext">
+                                (812)
+                            </span>
+                            595-81-22
+                        </a>
+                        <button class="ghost-button footer-contant__btn">
+                            стать абонентом
+                        </button>
+                    </div>
+                </div>
+                <div class="footer-menues">
+                    <div class="footer-menues__item">
+                        <h6 class="footer-menues__list-title">
+                            Услуги
+                        </h6>
+                        <ul class="footer-menues__list">
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Интернет + ТВ
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Интернет
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Цифровое ТВ
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Кабельное ТВ
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Телефон
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Домофон
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-menues__item">
+                        <h6 class="footer-menues__list-title">
+                            iPakt
+                        </h6>
+                        <ul class="footer-menues__list">
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Вакансии iPakt
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Новости
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-menues__item">
+                        <h6 class="footer-menues__list-title">
+                            Прочее
+                        </h6>
+                        <ul class="footer-menues__list">
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    iPakt Бизнес
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Приставка Movix Pro
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Личный кабинет
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Партнерская программа iPakt
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Проверка адреса подключения
+                                </a>
+                            </li>
+                            <li class="footer-menues__list-item">
+                                <a href="#" class="footer-menues-link">
+                                    Измерить скорость интернета
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info-row">
+                <div class="footer-info-row__copyright">
+                    © iPakt 2021
+                </div>
+                <p class="footer-info-row__text">
+                    Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный 
+                    характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации.
+                </p>
+                <div class="footer-info-row__social-links">
+                    <!--noindex-->
+                    <a href="#" class="footer-info-row__social-link" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fab fa-telegram-plane icon-footer fa-telegram-plane-footer"></i>
+                    </a>
+                    <!--/noindex-->
+
+                    <!--noindex-->
+                    <a href="#" class="footer-info-row__social-link" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-facebook icon-footer" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+
+                    <!--noindex-->
+                    <a href="#" class="footer-info-row__social-link" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-instagram icon-footer" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+
+                    <!--noindex-->
+                    <a href="#" class="footer-info-row__social-link" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-vk fa-vk-footer icon-footer" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+
+                    <!--noindex-->
+                    <a href="#" class="footer-info-row__social-link" rel="nofollow noopener noreferrer" target="_blank">
+                        <i class="fa fa-youtube-play fa-youtube-play-footer icon-footer" aria-hidden="true"></i>
+                    </a>
+                    <!--/noindex-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/choices.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
